@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="5dp">
@@ -16,6 +17,6 @@
     <TextView
         android:id="@+id/label"
         style="@style/Social"
-        android:text="GitHub" />
+        tools:text="@string/github" />
 
 </LinearLayout>

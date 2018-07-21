@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/card_holder"
     style="@style/Card"
-    android:layout_margin="10dp"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -37,18 +38,18 @@
                 android:id="@+id/name"
                 style="@style/Name"
                 android:paddingTop="10dp"
-                android:text="Your Full Name" />
+                tools:text="Your Full Name" />
 
             <TextView
                 android:id="@+id/sub_title"
                 style="@style/SubTitle"
-                android:text="Just a sub title" />
+                tools:text="Just a sub title" />
 
             <TextView
                 android:id="@+id/brief"
                 style="@style/Brief"
                 android:layout_margin="5dp"
-                android:text="This is as short message saying who you are and what you like to do." />
+                tools:text="This is as short message saying who you are and what you like to do." />
 
             <com.vansuita.materialabout.views.AutoFitGridLayout
                 android:id="@+id/links"
@@ -86,6 +87,7 @@
                         android:layout_width="@dimen/app_icon_size"
                         android:layout_height="@dimen/app_icon_size"
                         android:layout_centerVertical="true"
+                        android:layout_marginEnd="15dp"
                         android:layout_marginRight="15dp"
                         android:scaleType="centerCrop"
                         android:src="@mipmap/android" />
@@ -94,6 +96,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/app_icon"
                         android:layout_toRightOf="@id/app_icon"
                         android:orientation="vertical">
 
@@ -101,14 +104,14 @@
                             android:id="@+id/app_name"
                             style="@style/Name"
                             android:layout_width="wrap_content"
-                            android:gravity="left"
-                            android:text="Your App Name" />
+                            android:gravity="start"
+                            tools:text="Your App Name" />
 
                         <TextView
                             android:id="@+id/app_title"
                             style="@style/TextLabel"
-                            android:gravity="left"
-                            android:text="Just a sub title" />
+                            android:gravity="start"
+                            tools:text="Just a sub title" />
 
 
                     </LinearLayout>

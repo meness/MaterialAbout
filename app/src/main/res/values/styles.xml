@@ -3,11 +3,17 @@
     <style name="AppThemeDark" parent="Theme.AppCompat.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/TextViewWithIranSansFont</item>
+    </style>
+
+    <style name="TextViewWithIranSansFont" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/iran_sans_mobile</item>
     </style>
 
     <style name="AppThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/TextViewWithIranSansFont</item>
     </style>
 
 
@@ -25,6 +31,8 @@
         <item name="android:colorBackground">@color/background</item>
         <item name="colorButtonNormal">@color/divider</item>
         <item name="colorControlHighlight">@color/divider</item>
+
+        <item name="android:textViewStyle">@style/TextViewWithIranSansFont</item>
     </style>
 
 

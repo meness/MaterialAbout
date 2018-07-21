@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="github">گیت‌هاب</string>
+    <string name="facebook">فیس‌بوک</string>
+    <string name="instagram">اینستاگرام</string>
+    <string name="twitter">توییتر</string>
+    <string name="bitbucket">بیت‌باکت</string>
+    <string name="google">گوگل</string>
+    <string name="google_plus">گوگل +</string>
+    <string name="google_play_store">پلی استور</string>
+    <string name="google_play_games">پلی گیمز</string>
+    <string name="linkedin">لینکدین</string>
+    <string name="whastapp">واتس‌اپ</string>
+    <string name="skype">اسکایپ</string>
+    <string name="youtube">یوتیوب</string>
+    <string name="android">اندروید</string>
+    <string name="dribbble">دریبل</string>
+    <string name="website">وب‌سایت</string>
+    <string name="email">ایمیل</string>
+    <string name="version">نسخه %s</string>
+    <string name="error">خطا</string>
+
+    <string name="rate_five_stars">به اپلیکیشن امتیاز ۵ ستاره دهید</string>
+    <string name="more_apps">دیگر اپلیکیشن‌های من</string>
+    <string name="share_app">اپلیکیشن را به اشتراک بگذارید</string>
+    <string name="update_app">به‌روزرسانی اپلیکیشن</string>
+    <string name="feedback_app">برایم بازخورد بفرستید</string>
+    <string name="introduce_app">معرفی اپلیکیشن</string>
+    <string name="changelog">تغییرات</string>
+    <string name="license">مجوز</string>
+    <string name="remove_ads">حذف تبلیغات</string>
+    <string name="donate">کمک مالی کنید</string>
+    <string name="help">راهنما</string>
+    <string name="privacy">سیاست حفظ حریم خصوصی</string>
+</resources>
